@@ -7,3 +7,6 @@ New-AzureRmVm `
     -SecurityGroupName "myNetworkSecurityGroup" `
     -PublicIpAddressName "myPublicIpAddress" `
     -OpenPorts 80,3389
+
+
+#https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-lock-resources#template
