@@ -1,3 +1,7 @@
+
+#https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-lock-resources#template
+
+
 New-AzureRmVm `
     -ResourceGroupName "myResourceGroup" `
     -Name "myVM" `
@@ -9,4 +13,4 @@ New-AzureRmVm `
     -OpenPorts 80,3389
 
 
-#https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-lock-resources#template
+
