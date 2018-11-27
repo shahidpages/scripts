@@ -1,0 +1,20 @@
+#Login
+azure login
+
+#Set Sub
+azure account set  {SubscriptionID}
+
+#Create RG
+azure group create --name MyCompanyRG_CL --location "West US"
+
+#Create an App Service Plan
+azure appserviceplan create --name MyCompanySP_CL --location "West US" --resource-group MyCompanyRG_CL --sku P1 --instances 10
+
+#Create an Web App
+azure webapp create --name MyCompanyAppSB_CL --resource-group MyCompanyRG_CL --plan MyCompanySP_CL --location "West US"
+
+#Restart an App
+azure webapp restart --name MyCompanyAppSB_rev2 --resource-group ContosoAzureResourceGroup
+
+
+

@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "virtualMachines_SimpleVM_adminPassword": {
+            "value": null
+        },
+        "virtualMachines_SimpleVM_name": {
+            "value": null
+        },
+        "networkInterfaces_simplevm565_name": {
+            "value": null
+        },
+        "networkSecurityGroups_SimpleVM_nsg_name": {
+            "value": null
+        },
+        "publicIPAddresses_SimpleVM_ip_name": {
+            "value": null
+        },
+        "virtualNetworks_SimpleNetwork_name": {
+            "value": null
+        },
+        "storageAccounts_simplevmdiag283_name": {
+            "value": null
+        },
+        "storageAccounts_simplevmdisks607_name": {
+            "value": null
+        }
+    }
+}

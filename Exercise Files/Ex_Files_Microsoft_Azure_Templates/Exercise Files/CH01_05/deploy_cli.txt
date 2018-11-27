@@ -1,0 +1,6 @@
+azure login
+azure account set {SubscriptionID}
+azure group create -n SimpleVMRev5 -l "East US"
+
+
+azure group deployment create --resource-group SimpleVMRev5 --template-file "{path}\template.json"

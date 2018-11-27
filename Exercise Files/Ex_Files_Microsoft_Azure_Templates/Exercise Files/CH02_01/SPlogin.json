@@ -1,0 +1,50 @@
+{
+  "Environments": {},
+  "Context": {
+    "Account": {
+      "Id": "{AccountID}",
+      "Type": 2,
+      "Properties": {
+        "Tenants": "{TenantID}",
+        "Subscriptions": "{SubscriptionID}"
+      }
+    },
+    "Subscription": {
+      "Id": "{SubscriptionID}",
+      "Name": "{SubscriptionName}",
+      "Environment": "AzureCloud",
+      "Account": "{AccountID}",
+      "State": "Enabled",
+      "Properties": {
+        "Tenants": "{TenantID}"
+      }
+    },
+    "Environment": {
+      "Name": "AzureCloud",
+      "OnPremise": false,
+      "Endpoints": {
+        "PublishSettingsFileUrl": "http://go.microsoft.com/fwlink/?LinkID=301775",
+        "ServiceManagement": "https://management.core.windows.net/",
+        "ResourceManager": "https://management.azure.com/",
+        "ManagementPortalUrl": "http://go.microsoft.com/fwlink/?LinkId=254433",
+        "ActiveDirectory": "https://login.microsoftonline.com/",
+        "ActiveDirectoryServiceEndpointResourceId": "https://management.core.windows.net/",
+        "StorageEndpointSuffix": "core.windows.net",
+        "Gallery": "https://gallery.azure.com/",
+        "SqlDatabaseDnsSuffix": ".database.windows.net",
+        "Graph": "https://graph.windows.net/",
+        "TrafficManagerDnsSuffix": "trafficmanager.net",
+        "AzureKeyVaultDnsSuffix": "vault.azure.net",
+        "AzureKeyVaultServiceEndpointResourceId": "https://vault.azure.net",
+        "AzureDataLakeAnalyticsCatalogAndJobEndpointSuffix": "azuredatalakeanalytics.net",
+        "AzureDataLakeStoreFileSystemEndpointSuffix": "azuredatalakestore.net",
+        "GraphEndpointResourceId": "https://graph.windows.net/"
+      }
+    },
+    "Tenant": {
+      "Id": "{tenantID}",
+      "Domain": null
+    },
+    "TokenCache": "{token}"
+  }
+}
